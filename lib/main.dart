@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
       // home: HomePage(),
       themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-
+      initialRoute: myroutes.homeroute,
       routes: {
         "/": (context) => LoginPage(),
         myroutes.homeroute: (context) => HomePage(),
