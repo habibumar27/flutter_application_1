@@ -10,7 +10,10 @@ class HomePage extends StatelessWidget {
     final String a = "days";
     return Scaffold(
       appBar: AppBar(
-        title: Text("Mobile Application"),
+        title: Text(
+          "Mobile Application",
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Center(
         child: Container(
